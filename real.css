@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Sen');
+
+@font-face {
+    font-family: 'SF Mono Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SF Mono Regular'), url('assets/fonts/SFMonoRegular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'SF Mono Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SF Mono Bold'), url('assets/fonts/SFMonoBold.woff') format('woff');
+}
+
+body, html{
+    background-color: #EFE8E1;
+    margin: auto;
+    font-family: 'SF Mono Regular';
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+header ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+header li{
+    padding: 5px 10px;
+}
+
+h3{
+    font-family: 'Sen';
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100vw;
+    height: auto;
+}
+
+#titre{
+    text-align: center;
+    font-size: xx-large;
+}
+
+#titre h1{
+    margin: 0;
+    padding: 80px 0 40px 0;
+}
+
+#croquis{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 3vw;
+}
+
+#croquis img{
+    width: 40vw;
+    height: auto;
+    object-fit: cover;
+    border-color: #EFE8E1;
+    border-width: 10px;
+    box-shadow: 5px 5px 5px gray;
+}
+
+#contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+}
+
+#itemContact{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#itemContact div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+#itemContact img{
+    width: 20px;
+    height: 20px;
+    margin: 20px;
+}
+
+#itemContact p{
+    margin-right: 20px;
+
+}
+
+#logo{
+    width: 20%;
+    height: 20%;
+    object-fit: cover;
+}
+
+.image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: auto;
+    background-color: white;
+    text-align: center;
+    padding: 2vw 2vw 0 2vw;
+    font-family: 'Sen';
+    box-shadow: 10px 5px 5px gray;
+}
+
+.image img{
+    width: 96vw;
+}

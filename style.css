@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Sen');
+@font-face {
+    font-family: 'SF Mono Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SF Mono Regular'), url('assets/fonts/SFMonoRegular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'SF Mono Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SF Mono Bold'), url('assets/fonts/SFMonoBold.woff') format('woff');
+}
+body, html{
+    margin: auto;
+    font-family: 'Sen';
+}
+
+#partie1{
+    background-image:url(maison);
+    background-size: cover;
+    height: 610px;
+    display: grid; 
+    grid-template-columns: 20% 80%; 
+}
+
+#Logo{
+    width: 200px;
+    height: auto;
+    margin-left: 20px;
+    margin-top: 0px;
+    filter:drop-shadow(8px 5px 4px #464648);
+}
+
+#menu{
+    width: 100%;
+    position: fixed;
+
+}
+
+#menu ul{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    list-style-type:none;
+}
+
+#menu li{
+    padding-right: 20px;
+}
+
+#partie2{
+    background-color: #EFE8E1;
+    display: grid; 
+    grid-template-columns: 30% 70%;
+}
+
+#logo{
+    margin: 5%;
+    margin-left: 30%;
+    width: 150px;
+    height: auto; 
+}
+
+#symb{
+    width: 15px;
+    height: 15px; 
+}
+
+#Contact{
+    margin: 2%;
+    
+}
+
+.contact{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    gap: 10px;
+    height: 30px; 
+   
+    
+}
+
+
+
+.symtex{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    gap: 10px;
+}
+
+#form{
+    background-color: #EFE8E1 ;
+    opacity: 0.9;
+    margin: 5%;
+    margin-left: 20%;
+    margin-right: 30%;
+    border-radius: 5%;
+    justify-content: center;
+    filter:drop-shadow(5px 5px 4px #464648);
+}
+
+#texte{
+    padding: 10%;
+    padding-bottom: 5%;
+    
+}
+
+.case{
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+}
+
+#mess{
+    height: 10vw;
+    border-radius: 10px;
+}
+
+.carreb{
+    border-radius: 5px;
+}
+
+#button{
+    background-color: #C3423A;
+    color: white;
+    padding: 1.5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-left: 70%;
+    margin-bottom: 5%;
+    border-radius: 5px;
+}
